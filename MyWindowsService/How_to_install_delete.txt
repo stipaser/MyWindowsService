@@ -1,0 +1,9 @@
+﻿Install with Developer Command Promt
+D:\myService>installutil MyWindowsService.exe
+
+delete CMD
+sc delete <service name>
+
+
+see also: https://docs.microsoft.com/en-us/dotnet/framework/windows-services/how-to-install-and-uninstall-services
+

@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-using System.Configuration.Install;
-using System.ServiceProcess;
+﻿using System.ServiceProcess;
 
 namespace MyWindowsService
 {
@@ -44,9 +42,9 @@ namespace MyWindowsService
          // 
          // serviceInstaller1
          // 
-         this.serviceInstaller1.Description = "My First Service demo v2";
-         this.serviceInstaller1.DisplayName = "MyFirstService.Demo v2";
-         this.serviceInstaller1.ServiceName = "MyFirstService.Demo v2";
+         this.serviceInstaller1.Description = "MyService1";
+         this.serviceInstaller1.DisplayName = "MyService1";
+         this.serviceInstaller1.ServiceName = "MyService1";
          // 
          // ProjectInstaller
          // 
